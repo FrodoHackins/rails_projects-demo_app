@@ -6,7 +6,8 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'mysql', '2.9.1'
+  # gem 'mysql', '2.9.1'
+  gem "mysql2", "~> 0.3.11"
 end
 
 # Gems used only for assets and not required
